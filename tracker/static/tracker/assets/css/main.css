@@ -1987,16 +1987,16 @@ input, select, textarea {
 					background-color: #2DAAE4;
 				}
 
-				ul.contact li:hover a.fa-dribbble {
-					background-color: #C4376B;
+				ul.contact li:hover a.fa-github {
+					background-color: #1a1b5a;
 				}
 
-				ul.contact li:hover a.fa-linkedin {
+				ul.contact li:hover a.fa-linkedin-in {
 					background-color: #006599;
 				}
 
-				ul.contact li:hover a.fa-instagram {
-					background-color: #2E5E86;
+				ul.contact li:hover a.fa-file {
+					background-color: #5889b1;
 				}
 
 				ul.contact li:hover a.fa-google-plus {
@@ -2536,7 +2536,7 @@ input, select, textarea {
 				font-family: 'Open Sans Condensed', sans-serif;
 				font-weight: 700;
 				text-transform: uppercase;
-				color: #575d59;
+				color: #8b9597;
 				font-size: 1.35em;
 				margin: 0 0 1.25em 0;
 			}
