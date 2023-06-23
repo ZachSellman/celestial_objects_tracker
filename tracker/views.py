@@ -5,3 +5,7 @@ from django.shortcuts import render
 
 def homepage(request):
     return render(request, "tracker/index.html")
+
+
+def base(request):
+    return render(request, "tracker/base.html")

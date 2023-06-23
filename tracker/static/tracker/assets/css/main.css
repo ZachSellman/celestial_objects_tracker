@@ -7,6 +7,14 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Color pallete:
+	#03045E -> Dark Blue
+	#00B4D8 -> Medium Blue
+	#90E0Ef -> Lighter Blue
+	#CAF0F8 -> Very Light Blue
+
+*/
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -82,6 +90,7 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+	/* This is the background for the very bottom */
 	body {
 		background: #f2f5f3;
 	}
@@ -97,6 +106,7 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+	/* This is the paragraph text */
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
@@ -105,6 +115,7 @@ input, select, textarea {
 		line-height: 2em;
 	}
 
+	/* This is for the headers... obviously */
 	h1, h2, h3, h4, h5, h6 {
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
@@ -123,6 +134,7 @@ input, select, textarea {
 		font-size: 1.65em;
 	}
 
+		/* This is the Lines next to text like "you can check out..." */
 		h2.major {
 			position: relative;
 			border-top: solid 5px #e7eae8;
@@ -132,6 +144,7 @@ input, select, textarea {
 			top: 0.775em;
 		}
 
+			/* This is the white space around the text with lines */
 			h2.major span {
 				background: #fff;
 				position: relative;
@@ -1749,6 +1762,7 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 			height: 100%;
+			/* This is an overlay over all images apparently */
 			background: url("images/overlay.png");
 			border-radius: 8px;
 		}
@@ -1792,7 +1806,8 @@ input, select, textarea {
 		font-weight: 700;
 		text-transform: uppercase;
 		text-decoration: none;
-		background: #b1ddab;
+		/* This is for the button below the planets */
+		background: #213555;
 		color: #fff;
 		border: 0;
 		line-height: 1em;
@@ -1814,7 +1829,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #c1edbb;
+			/* This is what the above button shows when hovered over */
+			background: #4F709C;
 		}
 
 		input[type="button"]:active,
@@ -1838,6 +1854,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
+				/* This is the archives button when hovered over */
 				background: #ccd5d0;
 			}
 
@@ -1885,6 +1902,7 @@ input, select, textarea {
 	}
 
 		ul.divided > li {
+			/* These are the lines on the right of the very bottom image */
 			border-top: solid 2px #e7eae8;
 			padding-top: 2.35em;
 			margin-top: 2.35em;
@@ -1969,16 +1987,16 @@ input, select, textarea {
 					background-color: #2DAAE4;
 				}
 
-				ul.contact li:hover a.fa-dribbble {
-					background-color: #C4376B;
+				ul.contact li:hover a.fa-github {
+					background-color: #1a1b5a;
 				}
 
-				ul.contact li:hover a.fa-linkedin {
+				ul.contact li:hover a.fa-linkedin-in {
 					background-color: #006599;
 				}
 
-				ul.contact li:hover a.fa-instagram {
-					background-color: #2E5E86;
+				ul.contact li:hover a.fa-file {
+					background-color: #5889b1;
 				}
 
 				ul.contact li:hover a.fa-google-plus {
@@ -2043,6 +2061,7 @@ input, select, textarea {
 
 	ul.meta {
 		font-size: 0.85em;
+		/* This is the metadata under the headings like date, etc */
 		color: #a1aaa5;
 		list-style: none;
 		padding-left: 0;
@@ -2098,7 +2117,7 @@ input, select, textarea {
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		color: #6b7770;
+		color: #776b77;
 	}
 
 	form input[type="text"],
@@ -2165,7 +2184,7 @@ input, select, textarea {
 		}
 
 			table.default tr {
-				border-top: solid 2px #E7EAE8;
+				border-top: solid 2px #eae7ea;
 			}
 
 				table.default tr:first-child {
@@ -2309,19 +2328,22 @@ input, select, textarea {
 		font-weight: 700;
 		text-transform: uppercase;
 		padding: 2em 0;
-		background: #fff;
+		/* This is the primary header color behind the first text */
+		background: #ffffff;
 		margin: 0 auto;
 	}
 
 		#header .logo {
 			position: relative;
 			text-align: center;
-			border-top: solid 5px #e7eae8;
+			/* This is the bar along the topmost header */
+			border-top: solid 5px #eae7ea;
 			top: 0.65em;
 		}
 
 			#header .logo div {
-				background: #fff;
+				/* This is the white block behind the topmost header */
+				background: #ffffff;
 				position: relative;
 				display: inline-block;
 				padding: 0 1.5em 0 1.5em;
@@ -2334,7 +2356,8 @@ input, select, textarea {
 
 			#header .logo p {
 				display: inline;
-				color: #C1CAC5;
+				/* This is the topmost header past the colon */
+				color: #cac1ca;
 			}
 
 /* Nav */
@@ -2348,7 +2371,8 @@ input, select, textarea {
 		top: 0;
 		left: 0;
 		z-index: 1000;
-		background-color: rgba(255, 255, 255, 0.95);
+		/* This is the nav bar background color */
+		background-color: rgba(245, 239, 231, 0.95);
 		background-image: url("images/overlay.png");
 		width: 100%;
 		height: 3.25em;
@@ -2389,7 +2413,8 @@ input, select, textarea {
 				position: relative;
 				display: block;
 				text-decoration: none;
-				color: #6b7770;
+				/* This is the text other than Home button on the navbar */
+				color: #213555;
 				top: -6px;
 				padding: 6px 1.5em 0.25em 1.5em;
 				border-bottom-left-radius: 6px;
@@ -2402,23 +2427,25 @@ input, select, textarea {
 			}
 
 			#nav li:hover a, #nav li:hover span {
-				background: #C1CAC5;
-				color: #fff;
+				/* This is the hover over color on the nav bar */
+				background: #D8C4B6;
+				color: #213555;
 			}
 
 			#nav li.active a, #nav li.active span {
-				background: #C1CAC5;
-				color: #fff;
+				background: #D8C4B6;
+				color: #213555;
 			}
 
 			#nav li.current a {
-				background: #b1ddab;
+				/* This is the nav bar Home button */
+				background: #213555;
 				color: #fff;
 			}
 
 	.dropotron {
 		list-style: none;
-		background: #6B7770;
+		background: #213555;
 		color: #fff;
 		border-radius: 6px;
 		line-height: 2.75em;
@@ -2478,7 +2505,7 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/space.jpg");
 		background-position: top left, top left, center center;
 		background-repeat: repeat, repeat, no-repeat;
 		background-size: auto, auto, cover;
@@ -2509,7 +2536,7 @@ input, select, textarea {
 				font-family: 'Open Sans Condensed', sans-serif;
 				font-weight: 700;
 				text-transform: uppercase;
-				color: #575d59;
+				color: #8b9597;
 				font-size: 1.35em;
 				margin: 0 0 1.25em 0;
 			}
@@ -2540,7 +2567,7 @@ input, select, textarea {
 
 	#main {
 		background: #fff;
-		border-top: solid 5px #b1ddab;
+		border-top: solid 5px #4F709C;
 		border-bottom: solid 5px #c1cac5;
 		border-top-width: 35px;
 		border-bottom-width: 10px;
@@ -2823,7 +2850,7 @@ input, select, textarea {
 						position: absolute;
 						left: 0;
 						top: 0;
-						background: #b1ddab;
+						background: #d3abdd;
 						width: 44px;
 						height: 44px;
 						content: '\f0c9';
@@ -3072,7 +3099,7 @@ input, select, textarea {
 		/* Sidebar */
 
 			.sidebar {
-				border-top: solid 2px #e7eae8;
+				border-top: solid 2px #eae7ea;
 				padding-top: 50px;
 				margin-top: 30px;
 			}
