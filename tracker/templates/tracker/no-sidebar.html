@@ -1,4 +1,6 @@
 <!DOCTYPE HTML>
+
+{% load static %}
 <!--
 	TXT by HTML5 UP
 	html5up.net | @ajlkn
@@ -9,7 +11,7 @@
 		<title>No Sidebar - TXT by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="{% static 'tracker/assets/css/main.css' %}" />
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -244,13 +246,13 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="{% static 'tracker/assets/js/jquery.min.js' %}"></script>
+		<script src="{% static 'tracker/assets/js/jquery.dropotron.min.js' %}"></script>
+		<script src="{% static 'tracker/assets/js/jquery.scrolly.min.js' %}"></script>
+		<script src="{% static 'tracker/assets/js/browser.min.js' %}"></script>
+		<script src="{% static 'tracker/assets/js/breakpoints.min.js' %}"></script>
+		<script src="{% static 'tracker/assets/js/util.js' %}"></script>
+		<script src="{% static 'tracker/assets/js/main.js' %}"></script>
 
 	</body>
 </html>
